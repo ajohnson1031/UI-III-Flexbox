@@ -173,7 +173,6 @@ h2 {
 p {
     /*font-family: 'Open Sans', sans-serif;*/
     line-height: 1.25rem
-    
 }
 
 section {
@@ -304,6 +303,7 @@ ________________________________*/
     border-bottom: 1px solid black;
     margin-top: 20px;
 }
+
 .services-header-img {
     width: 880px;
     height: 200px;
@@ -350,59 +350,61 @@ ________________________________*/
     .services-header-img {
         max-width: 288px;
     }
-    
+
     header {
         max-width: 300px;
         flex-wrap: wrap;
         justify-content: center;
     }
-    
+
     header .logo {
         order: 0;
         margin-bottom: 10px;
-        
+
     }
-    
-    header nav { 
+
+    header nav {
         order: 1;
     }
-    
-    
-    .main { 
+
+
+    .main {
         flex-wrap: wrap;
     }
-    
+
     article {
         display: flex;
         flex-wrap: wrap;
     }
-    
-    article:nth-child(even), article:last-child {
+
+    article:nth-child(even),
+    article:last-child {
         margin-top: 25px;
     }
-    
-     .half, .thirds {
+
+    .half,
+    .thirds {
         min-width: 100%;
         padding: 0;
     }
-    
+
     .call-to-action {
         flex-direction: column;
-        height: auto;  
+        height: auto;
         display: flex;
     }
-    
+
     .call-to-action div {
         padding: 0;
         width: 100%;
         height: 288px;
         margin-bottom: 25px;
     }
-    
+
     div.cta-snippet-img {
         background-size: contain;
         background-position: 0;
         margin-bottom: 0;
     }
-    
+
 }
